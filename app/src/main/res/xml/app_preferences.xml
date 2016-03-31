@@ -33,4 +33,15 @@
 
     </PreferenceCategory>
 
+    <PreferenceCategory android:title="Map">
+        <ListPreference
+            android:title="Reminders Auto Expiration"
+            android:summary="Reminders will auto expired in given hrs."
+            android:key="map"
+            android:defaultValue="1"
+            android:entries="@array/listArray"
+            android:entryValues="@array/listValues" />
+
+    </PreferenceCategory>
+
 </PreferenceScreen>

@@ -3,7 +3,7 @@
 
     <string name="action_add_categories">Add Cetegories</string>
     <string name="action_settings">Settings</string>
-    <string name="action_about">About Us</string>
+    <string name="action_about">About</string>
 
     <!-- Note fragment title strings  -->
     <string name="view_fragment_title">View Note</string>
