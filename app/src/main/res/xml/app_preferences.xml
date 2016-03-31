@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:title="General">
+        <EditTextPreference
+            android:title="Notes title"
+            android:summary="The title that will be used on main action bar"
+            android:key="title"
+            android:defaultValue="MyNotes"/>
+
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="Color">
+        <CheckBoxPreference
+            android:title="Dark background"
+            android:summary="Is the main background color dark?"
+            android:key="background_color"
+            android:defaultValue="false"/>
+
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="Actions">
+        <CheckBoxPreference
+            android:title="Swipe actions"
+            android:summary="Enable swipe actions on item in notes list"
+            android:key="swipe"
+            android:defaultValue="false"/>
+        <Preference
+            android:title="Swipe left to right"
+            android:summary="Delete note for swipe left to right"/>
+        <Preference
+            android:title="Swipe right to left"
+            android:summary="Edit note for swipe right to left"/>
+
+    </PreferenceCategory>
+
+</PreferenceScreen>
